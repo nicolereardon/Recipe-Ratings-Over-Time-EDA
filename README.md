@@ -32,5 +32,12 @@ Histogram of Number of Steps Against Recipe Length without Outliers
 <iframe src="assets/bi_step_min_without_out.html" width=800 height=600 frameBorder=0></iframe>
 
 # Assessment of Missingness
+Missing Completely at Random: Average Rating on Minutes
+<iframe src="assets/mcar_fig_condition_on_minutes.html" width=800 height=600 frameBorder=0></iframe>
+
+Missing at Random: Average Rating on Year
+<iframe src="assets/mar_fig_condition_on_year.html" width=800 height=600 frameBorder=0></iframe>
 
 # Hypothesis Testing
+Hypothesis Test
+<iframe src="assets/fig_hyp.html" width=800 height=600 frameBorder=0></iframe>
