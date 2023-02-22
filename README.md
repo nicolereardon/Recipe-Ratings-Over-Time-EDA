@@ -156,7 +156,7 @@ Hypothesis Test
 
 <style> 
 	table{ 
-		table-layout: fixed;
+		table-layout: 70%;
 		/*width: 100; 
 		height:350px;*/ 
 
