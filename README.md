@@ -165,7 +165,7 @@ Hypothesis Test
 	 td{ 
 	 	overflow: hidden;
 	 	white-space: nowrap;
-	 	width: 100px;
+	 	width: 60%;
 
 	 	/*width:60%;
 	 	overflow: hidden;*/
