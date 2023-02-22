@@ -158,7 +158,7 @@ Hypothesis Test
 	table{ 
 		table-layout: fixed; 
 		border-collapse: collapse;
-		width: 90%;
+		width: 80%;
         margin-left: auto;
         margin-right: auto;
         word-wrap: break-word;
@@ -166,13 +166,20 @@ Hypothesis Test
 		height:350px;*/ 
 
 	 }
+     /* tr{
+         page-break-inside: avoid;
+     } */
 
 	 td{ 
-	 	overflow: hidden;
+	 	overflow: scroll;
 	 	white-space: nowrap;
         word-wrap: break-word;
-	 	width: 100%;
-	 }
+	 	width: 200%;
+
+	 	/*width:60%;
+	 	overflow: hidden;*/
+/*    	white-space:nowrap;*/
+	  }
 
 </style>
 
