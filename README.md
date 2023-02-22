@@ -155,15 +155,16 @@ Hypothesis Test
 <iframe src="assets/fig_hyp.html" width=800 height=600 frameBorder=0></iframe>
 
 <style> 
-	table{ 
-		width: 750px; 
+	t/*able{ 
+		width: 100; 
 		height:350px; 
 
-	 }
+	 }*/
 
 	 td{ 
-	 	width:50%;
+	 	width:60%;
 	 	height:50%;
+	 	overflow: auto;
 /*    	white-space:nowrap;*/
 	  }
 
