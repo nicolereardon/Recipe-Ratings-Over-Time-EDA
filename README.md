@@ -156,8 +156,10 @@ Hypothesis Test
 
 <style> 
 	table{ 
-		table-layout: 70%;
+		table-layout: fixed; 
+		border-collapse: collapse;
 		overflow: hidden;
+		width: 100%;
 		/*width: 100; 
 		height:350px;*/ 
 
@@ -166,7 +168,7 @@ Hypothesis Test
 	 td{ 
 	 	overflow: hidden;
 	 	white-space: nowrap;
-	 	width: 60%;
+	 	width: 80%;
 
 	 	/*width:60%;
 	 	overflow: hidden;*/
