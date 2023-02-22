@@ -7,7 +7,7 @@
 
 This is a part of the dataframe that we used that has all the recipes and their respective average ratings. 
 
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" id = "combined_avg_rating">
   <thead>
     <tr style="text-align: right;">
       <th>name</th>
@@ -153,5 +153,20 @@ Missing at Random: Average Rating on Year
 # Hypothesis Testing
 Hypothesis Test
 <iframe src="assets/fig_hyp.html" width=800 height=600 frameBorder=0></iframe>
+
+<style> 
+	table{ 
+		width: 750px; 
+		height:350px; 
+
+	 }
+	 
+	 td{ 
+	 	 max-height:60%;
+    	white-space:nowrap;
+	  }
+
+
+</style>
 
 
