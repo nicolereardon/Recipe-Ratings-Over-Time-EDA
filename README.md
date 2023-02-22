@@ -160,9 +160,10 @@ Hypothesis Test
 		height:350px; 
 
 	 }
-	 
+
 	 td{ 
-	 	 max-height:60%;
+	 	max-height:60%;
+	 	max-width:60%;
     	white-space:nowrap;
 	  }
 
