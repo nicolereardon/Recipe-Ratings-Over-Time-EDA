@@ -7,7 +7,7 @@
 
 This is a part of the dataframe that we used that has all the recipes and their respective average ratings. 
 
-<iframe id  = "combined_avg_rating" src="assets/combined_avg_rating.html" width = 500 height = 350 frameBorder = 0></iframe>
+<iframe id  = "combined_avg_rating" src="assets/combined_avg_rating.html" width = 700 height = 350 frameBorder = 0></iframe>
 
 
 Interaction Dataframe 
