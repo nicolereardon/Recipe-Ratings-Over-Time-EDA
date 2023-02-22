@@ -158,8 +158,10 @@ Hypothesis Test
 	table{ 
 		table-layout: fixed; 
 		border-collapse: collapse;
-		overflow: hidden;
-		width: 100%;
+		width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        word-wrap: break-word;
 		/*width: 100; 
 		height:350px;*/ 
 
@@ -168,13 +170,9 @@ Hypothesis Test
 	 td{ 
 	 	overflow: hidden;
 	 	white-space: nowrap;
-	 	width: 80%;
-
-	 	/*width:60%;
-	 	overflow: hidden;*/
-/*    	white-space:nowrap;*/
-	  }
-
+        word-wrap: break-word;
+	 	width: 100%;
+	 }
 
 </style>
 
