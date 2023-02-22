@@ -163,7 +163,7 @@ Hypothesis Test
 
 	 td{ 
 	 	width:50%;
-	 	heightwidth:50%;
+	 	height:50%;
 /*    	white-space:nowrap;*/
 	  }
 
