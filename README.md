@@ -7,8 +7,7 @@
 
 This is a part of the dataframe that we used that has all the recipes and their respective average ratings. 
 
-<iframe src="assets/combined_avg_rating.html" width = 500 height = 350 frameBorder = 0></iframe>
-
+<iframe id  = "combined_avg_rating" src="assets/combined_avg_rating.html" width = 500 height = 350 frameBorder = 0></iframe>
 
 
 Interaction Dataframe 
@@ -19,9 +18,6 @@ We merged the Recipes dataframe and the Interaction dataframe to get the average
 
 We used this data frame throughout the rest of our exploration and analysis
 **inter the df with recipes and average rating** 
-
-
-
 
 
 # Cleaning and EDA
@@ -62,3 +58,11 @@ Missing at Random: Average Rating on Year
 # Hypothesis Testing
 Hypothesis Test
 <iframe src="assets/fig_hyp.html" width=800 height=600 frameBorder=0></iframe>
+
+
+<style>
+	#id  = "combined_avg_rating {
+      width: 120%;
+      height: 70%;
+   }
+</style>
