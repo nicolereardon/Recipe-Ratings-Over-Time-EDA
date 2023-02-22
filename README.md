@@ -157,6 +157,7 @@ Hypothesis Test
 <style> 
 	table{ 
 		table-layout: 70%;
+		overflow: hidden;
 		/*width: 100; 
 		height:350px;*/ 
 
