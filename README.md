@@ -64,5 +64,7 @@ Hypothesis Test
 	#id  = "combined_avg_rating {
       width: 120%;
       height: 70%;
+      font-style: Helvetca;
+      font-size: 16px;
    }
 </style>
