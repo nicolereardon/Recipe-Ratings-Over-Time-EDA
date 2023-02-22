@@ -162,9 +162,9 @@ Hypothesis Test
 	 }
 
 	 td{ 
-	 	max-height:60%;
-	 	max-width:60%;
-    	white-space:nowrap;
+	 	width:50%;
+	 	heightwidth:50%;
+/*    	white-space:nowrap;*/
 	  }
 
 
