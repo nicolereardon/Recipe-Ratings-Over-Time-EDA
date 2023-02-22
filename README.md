@@ -163,8 +163,13 @@ Hypothesis Test
 	 }
 
 	 td{ 
-	 	width:60%;
-	 	overflow: hidden;
+	 	position: absolute;
+	    max-width: 100%;
+	    white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	 	/*width:60%;
+	 	overflow: hidden;*/
 /*    	white-space:nowrap;*/
 	  }
 
