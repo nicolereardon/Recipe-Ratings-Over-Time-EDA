@@ -312,7 +312,7 @@ Hypothesis Test
 
 <style> 
 	table{ 
-/*		table-layout: fixed; */
+		table-layout: auto; 
 		border-collapse: collapse;
 		width: 150%;
         /*margin-left: auto;
