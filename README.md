@@ -14,9 +14,9 @@ This dataset is useful for anyone who would like to further explore different fa
 <h3>Number of Rows: 83782 rows</h3>
 <h3>Relevant Columns: average_rating, minutes, nutrition, n_steps</h3>
 <h3>Description of Columns: </h3>
-<li> <h5>average_ rating: average number of minutes for each recipe</h5></li>
-<li><h5>Minutes: the number of minutes it takes to make the recipe</h5></li>
-<li><h5>n_steps: the number of steps in the recipe</h5></li>
+<p>average_ rating: average number of minutes for each recipe</p>
+<p>Minutes: the number of minutes it takes to make the recipe</p>
+<p>n_steps: the number of steps in the recipe</p>
 
 <p>The data frame we used during our analysis consisted of all of the columns of Raw Recipes along with the average rating of those recipes, obtained by calculating it in the Raw Recipes data frame. We will reference this data frame as Combined throughout the rest of this investigation.</p>
 
@@ -500,7 +500,7 @@ We used a permutation test to come to the conclusion and found that there was a 
 	 }
 	 th{
 	 	width:150%;
-	 	overflow: scroll;
+	 	overflow: auto;
   	white-space: nowrap;
 	 }
      /* tr{
