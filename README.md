@@ -1,12 +1,12 @@
 <h1>Exploration of Recipe Ratings Over Time</h1>
 
-<i> The datasets that were used throughout this project can be found here: <a href = "https://dsc80.com/project3/recipes-and-ratings/food.com">food.com</a></i>
+<h3><em> The datasets that were used throughout this project can be found here: <a href = "https://dsc80.com/project3/recipes-and-ratings/food.com">food.com</a></em></h3>
 
 <h1> Introduction </h1>
 ** Still need to include introduction **
-## Question: What is the relationship between change in time and rating?
+<h1>Question: What is the relationship between change in time and rating?<h1>
 
-<h4>Original Dataframe with Average Rating Column</h4>
+<h4><em>Original Dataframe with Average Rating Column</em></h4>
 
 This is a part of the dataframe that we used that has all the recipes and their respective average ratings. 
 
