@@ -1,5 +1,5 @@
 <h1>Exploration of Recipe Ratings Over Time</h1>
-<h4 id="creators">By: Lina Battikha & Nicole Reardon</h3>
+<h4>id="creators">By: Lina Battikha & Nicole Reardon</h4>
 
 
 <h5><em> The datasets that were used throughout this project can be found here: <a href = "https://dsc80.com/project3/recipes-and-ratings/food.com">food.com</a></em></h5>
@@ -434,6 +434,7 @@ This is a part of the dataframe that we used that has all the recipes and their 
 	  }
 	  body{
 	  	font-family: Helvetica, Sans-Serif;
+      text-align: center
 	  }
     h1{
       font-family: Helvetica, Sans-Serif;
@@ -445,7 +446,6 @@ This is a part of the dataframe that we used that has all the recipes and their 
     }
     #creators{
       color: black;
-      text-align: center
     }
 
 
