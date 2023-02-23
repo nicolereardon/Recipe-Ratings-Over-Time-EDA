@@ -163,7 +163,7 @@ Hypothesis Test
         margin-right: auto;
 */      word-wrap: break-word;
         margin-right:auto;
-        margin-left:0px;
+        margin-left:150px;
         overflow: scroll;
 		/*width: 100; 
 		height:350px;*/ 
@@ -185,6 +185,10 @@ Hypothesis Test
 	 	overflow: hidden;*/
 /*    	white-space:nowrap;*/
 	  }
+
+	  .page {
+        @include container;
+    }
 
 
 </style>
