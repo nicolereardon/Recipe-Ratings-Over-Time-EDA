@@ -5,12 +5,22 @@
 <h5><em> The datasets that were used throughout this project can be found here: <a href = "https://dsc80.com/project3/recipes-and-ratings/food.com">food.com</a></em></h5>
 
 <h1> Introduction </h1>
-** Still need to include introduction **
+<p>Throughout the rest of the page, you will get a chance to explore different relationships between recipes and their ratings. The datasets that we used throughout this exploratory data analysis includes information about recipes between the years of 2008 and 2018 from the website Recipes.com. The first data frame, Raw Recipes,  contains relevant information about how to make the recipe (such as name, steps, ingredients, number of minutes it will take, etc.) as well as the id of the contributor and the date they submitted the recipe. The second data frame, Raw Interactions, contains information about ratings of the recipes (i.e. date submitted, number rating, and review) as well as the id of the user who wrote it and the id of the recipe it was for.<br>
+
+This dataset is useful for anyone who would like to further explore different factors of recipes and what possible trends may exist. Through our EDA, we were interested in looking at the relationship between recipes’ ratings and time. Such focus on this relationship would allow us to look at possible trends that may exist not only over all recipes but finding trends between the years as well. Given this, the question created to direct our analysis is:</p>
+
 <h1>Question: What is the relationship between change in time and rating?<h1>
 
-<h4><em>Original Dataframe with Average Rating Column</em></h4>
+<h3>Number of Rows: 83782 rows</h3>
+<h3>Relevant Columns: average_rating, minutes, nutrition, n_steps</h3>
+<h3>Description of Columns: </h3>
+<li> <h5>average_ rating: average number of minutes for each recipe</h5></li>
+<li><h5>Minutes: the number of minutes it takes to make the recipe</h5></li>
+<li><h5>n_steps: the number of steps in the recipe</h5></li>
 
-This is a part of the dataframe that we used that has all the recipes and their respective average ratings. 
+<p>The data frame we used during our analysis consisted of all of the columns of Raw Recipes along with the average rating of those recipes, obtained by calculating it in the Raw Recipes data frame. We will reference this data frame as Combined throughout the rest of this investigation.</p>
+
+<h4><em>Original Dataframe with Average Rating Column</em></h4>
 
 <table border="1" class="dataframe" id = "combined_avg_rating">
   <thead>
@@ -116,52 +126,64 @@ This is a part of the dataframe that we used that has all the recipes and their 
 <!-- We merged the Recipes dataframe and the Interaction dataframe to get the average rating for each recipe. We then merged the averages that we attained with the Recipes dataframe, shown below.  -->
 
 
-**We used this data frame throughout the rest of our exploration and analysis**
-
-
 <h1>Cleaning and EDA</h1>
-** Data cleaning steps in detail **
+
+<p>As we would be referencing the submitted dates of the recipes, we then converted the string-stored dates to the DateTime type. This would allow for easier date manipulations in our analysis.</p>
+
+<p>Another type-conversion we performed was on the nutrition, steps, and ingredient columns. They all appeared to be lists but were stored as strings, containing the macronutrient information, step-by-step explanation, and all needed ingredients, respectively, of each recipe. By converting the strings into actual lists, we were able to confirm that the listed number of steps and ingredients were correct. For the nutrition list, we also expanded the macros into separate columns that would allow us to easily access them individually.</p>
+
+
+
 <h1>Univariate Visualizations</h1>
 <h3>Proportion of Average Ratings</h3>
 <iframe src="assets/uni_avg_rating_prop.html" width=800 height=600 frameBorder=0></iframe>
-<br>
+<p>This histogram reveals that most average ratings of the recipes are on the higher end. This could be explained by the observation that those who enjoyed the recipe are more likely to take the time to write a rating, rather than those who didn’t.</p>
+
+<br><br>
 <!-- <h3>Density Average Rating</h3>
 <iframe src="assets/uni_density_avg_rating.html" width=800 height=600 frameBorder=0></iframe> -->
 
 <h3>Percentage of Minutes With Outliers</h3>
 <iframe src="assets/uni_percent_minutes_with_out" width=800 height=600 frameBorder=0></iframe>
-<br>
 <h3>Percentage of Minutes without Outliers</h3>
 <iframe src="assets/uni_percent_minutes_without_out" width=800 height=600 frameBorder=0></iframe>
-<br>
+<p>The above histograms show the outliers that exist in the number of minutes needed to complete the recipe. By removing the largest 1% of recipes by minutes, the distribution of recipes that take roughly 2 hours or less is more easily seen. (The removal of outliers was only performed for the purpose of the visualization, the recipes were included for the remainder of the exploration.)</p>
+
+<br><br>
+
 <h3>Percentage of Recipes Each Year</h3>
 <iframe src="assets/uni_recipes_per_year.html" width=800 height=600 frameBorder=0></iframe>
-<br>
-<br>
+<p>This histogram shows the percentage of recipes that were submitted each year, most of which came in the earlier years and steadily decreased over time.</p>
+
+
+<br><br>
 
 
 <h1>Bivariate Visualizations</h1>
 
 <h3>Histogram of Minutes Against Steps</h3>
 <iframe src="assets/bi_min_steps_hist.html" width=800 height=600 frameBorder=0></iframe>
-<br>
+<p>The histogram shows that most recipes in the Combined dataset have less than 40 steps</p>
+
+<br><br>
 
 <h3>Histogram of Number of Steps Against Recipe Length with Outliers</h3>
 <iframe src="assets/bi_step_min_with_out.html" width=800 height=600 frameBorder=0></iframe>
-<br>
-
 <h3>Histogram of Number of Steps Against Recipe Length without Outliers</h3>
 <iframe src="assets/bi_step_min_without_out.html" width=800 height=600 frameBorder=0></iframe>
-<br>
+<p>The scatterplots below show some of the obvious outliers that exist in the number of minutes needed to complete the recipe. By removing the largest 1% of recipes by minutes, the scatter of step count and minutes shows clusters of recipes that occur every 30 minutes or so. (The removal of outliers was only performed for the purpose of the visualization, the recipes were included for the remainder of the exploration.)</p>
+
+<br><br>
 
 <h3>Barchart of the Number of Binned Ratings Per Year</h3>
 <iframe src="assets/bi_fig_avg_year.html" width=800 height=600 frameBorder=0></iframe>
+<p>This part chart shows that the majority of years have recipes that have ratings of [4,5] stars. Also, it shows that as the years progress, there is less data for each year. </p>
 <br>
 <br>
 
 <h1>Intersting Aggregates</h1>
 
-<h4>We added in a new column that groups ratings that are within a range, rounding down to the nearest rating. </h4>
+<h4>We added in a new column that groups ratings that are within a range, rounding down to the nearest rating. This table was used to make the last bivariate graph above.</h4>
 
 <!-- WITH THE BINNED AVERAGES -->
 <table border="1" class="dataframe">
@@ -262,6 +284,9 @@ This is a part of the dataframe that we used that has all the recipes and their 
     </tr>
   </tbody>
 </table>
+<p>We used this pivot table to see how the average amount of calories per rating bin for each year changed. Just looking at this table, we noticed that 2018 had a significantly greater amount of calories across all ratings compared to other years. Also, it seems like the average amount of calories per year seems to be consistent across the rating bins. </p>
+<br><br>
+
 
 <h4>Pivot Table - Aggregating the Mean of Calories per Rating Over Years Without Outliers</h4>
 <table border="1" class="dataframe">
@@ -324,6 +349,8 @@ This is a part of the dataframe that we used that has all the recipes and their 
     </tr>
   </tbody>
 </table>
+<p>After looking into our data, we found that there was an outlier in 2018 that has an extremely high number of calories, which was skewing the results of our dataframe. To fix this, we kept only up until the 99th percentile of the calories and redid the pivot table. Looking at this pivot table, the amount of average calories per rating was still higher for 2018 compared to the other years. </p>
+<br><br>
 
 <h4>Difference Between the Two Pivot Tables Above</h4>
 <table border="1" class="dataframe">
@@ -386,19 +413,46 @@ This is a part of the dataframe that we used that has all the recipes and their 
     </tr>
   </tbody>
 </table>
-
-
+<p>We took the difference between the two pivot tables mentioned above to see how much each value changed once the outliers were removed. This would allow us to see how much each value changed when outliers were removed. </p>
+<br><br>
 
 <h1>Assessment of Missingness</h1>
+<br>
+<h4>Description Columns is NMAR</h4>
+<p>The column we believe to be not missing at random is the description column. Given that the description of the recipe is not entirely necessary to make the dish, it is possible that the contributor thought the name of the recipe was sufficient or couldn’t be bothered to write one. An additional column that could explain the missingness would possibly be a difficulty column. Recipes that are easier or more simple would have a lower difficulty rating and we would expect to see the recipes with lower difficulty ratings would have more missing descriptions.</p>
+<br><br>
+
+
 <h4>Missing Completely at Random: Average Rating on Minutes</h4>
 <iframe src="assets/mcar_fig_condition_on_minutes.html" width=800 height=600 frameBorder=0></iframe>
+<p><b>We found that the average rating conditional on minutes is Not Missing at Random (MCAR).</b> We used a permutation test to come to the conclusion and found that the p-value is 0.382, which is greater than the critical value of 0.05. when the missingness of the average rating was conditional on minutes. 
+</p>
+
+
+
 
 <h4>Missing at Random: Average Rating on Year</h4>
 <iframe src="assets/mar_fig_condition_on_year.html" width=800 height=600 frameBorder=0></iframe>
+<p><b>We found the average rating conditional on year is Missing at Random (MAR).</b> 
+We used a permutation test to come to the conclusion and found that there was a p value of 0.0 when the missingness of average rating was conditional on year. </p>
+
+<h5><em>Both of these finds are shown through our permutation tests</em></h5>
+
 
 <h1>Hypothesis Testing</h1>
+<h5> Null Hypothesis: The distribution of rating bins for the year of 2018 is the same as the population distribution between the years of 2008 and 2018.</h5>
+<br>
+<h5>Alternative Hypothesis: The distribution of rating bins for 2018 is different than the distribution of bin ratings during </h5>
+
+<h5>Choice of Test Statistics : Total Variation Distance (TVD)</h5>
+<p>We chose to use this test statistics because we are looking at two groups of categorical data, years and rating bins.</p>
+<h5>P-Value = 0.0</h5>
+<h5>Conclusion</h5>
+<p>Reject the null hypothesis. This is because the p-value is less than the critical value of 0.05. There is significant evidence to support the alternative hypothesis that the distribution of rating in 2018 is different from the overall population between the years of 2008-2018.</p>
+
 <iframe src="assets/fig_hyp.html" width=800 height=600 frameBorder=0></iframe>
 
+<p>This hypothesis test allowed us to look at whether the most recent year in the dataset follows the distribution of the populations, which is between the years of 2008-2018. By doing so, we are able to see if there is a significant difference in the distribution of ratings for 2018 compared to the population. </p>
 
 
 <style> 
