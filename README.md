@@ -129,7 +129,9 @@
 
 
 <h1>Cleaning and EDA</h1>
+<p>As we would be referencing the submitted dates of the recipes, we then converted the string-stored dates to the DateTime type. This would allow for easier date manipulations in our analysis.</p>
 
+<p>Another type-conversion we performed was on the nutrition, steps, and ingredient columns. They all appeared to be lists but were stored as strings, containing the macronutrient information, step-by-step explanation, and all needed ingredients, respectively, of each recipe. By converting the strings into actual lists, we were able to confirm that the listed number of steps and ingredients were correct. For the nutrition list, we also expanded the macros into separate columns that would allow us to easily access them individually.</p>
 
 <table border="1" class="dataframe">
   <thead>
@@ -209,10 +211,6 @@
     </tr>
   </tbody>
 </table>
-
-<p>As we would be referencing the submitted dates of the recipes, we then converted the string-stored dates to the DateTime type. This would allow for easier date manipulations in our analysis.</p>
-
-<p>Another type-conversion we performed was on the nutrition, steps, and ingredient columns. They all appeared to be lists but were stored as strings, containing the macronutrient information, step-by-step explanation, and all needed ingredients, respectively, of each recipe. By converting the strings into actual lists, we were able to confirm that the listed number of steps and ingredients were correct. For the nutrition list, we also expanded the macros into separate columns that would allow us to easily access them individually.</p>
 
 
 <h1>Univariate Visualizations</h1>
