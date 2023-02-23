@@ -1,4 +1,4 @@
-### Recipe-Ratings-Over-Time-EDA
+### Exploration of Recipe Ratings Over Time
 # Introduction
 ** Still need to include introduction **
 ## Question: What is the relationship between change in time and rating?
@@ -162,6 +162,8 @@ Hypothesis Test
         margin-left: auto;
         margin-right: auto;
         word-wrap: break-word;
+        margin-right:auto;
+        margin-left:0px
 		/*width: 100; 
 		height:350px;*/ 
 
