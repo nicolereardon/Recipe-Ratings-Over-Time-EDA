@@ -312,14 +312,14 @@ Hypothesis Test
 
 <style> 
 	table{ 
-		table-layout: fixed; 
+/*		table-layout: fixed; */
 		border-collapse: collapse;
 		width: 150%;
         /*margin-left: auto;
         margin-right: auto;
 */      word-wrap: break-word;
-        margin-right:auto;
-        margin-left:150px;
+/*        margin-right:auto;*/
+        margin-right:60%;
         overflow: scroll;
 		/*width: 100; 
 		height:350px;*/ 
