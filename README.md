@@ -123,8 +123,6 @@
 
 
 
-
-
 <!-- We merged the Recipes dataframe and the Interaction dataframe to get the average rating for each recipe. We then merged the averages that we attained with the Recipes dataframe, shown below.  -->
 
 
@@ -239,12 +237,6 @@
 
 
 <h1>Bivariate Visualizations</h1>
-
-<h3>Histogram of Minutes Against Steps</h3>
-<iframe src="assets/bi_min_steps_hist.html" width=800 height=600 frameBorder=0></iframe>
-<p>The histogram shows that most recipes in the Combined dataset have less than 40 steps</p>
-
-<br><br>
 
 <h3>Histogram of Number of Steps Against Recipe Length with Outliers</h3>
 <iframe src="assets/bi_step_min_with_out.html" width=800 height=600 frameBorder=0></iframe>
