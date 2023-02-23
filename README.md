@@ -1,4 +1,6 @@
 <h1>Exploration of Recipe Ratings Over Time</h1>
+<h3>By: Lina Battikha & Nicole Reardon</h3>
+
 
 <h3><em> The datasets that were used throughout this project can be found here: <a href = "https://dsc80.com/project3/recipes-and-ratings/food.com">food.com</a></em></h3>
 
@@ -119,20 +121,20 @@ This is a part of the dataframe that we used that has all the recipes and their 
 
 <h1>Cleaning and EDA</h1>
 ** Data cleaning steps in detail **
-# Univariate Visualizations
-Proportion of Average Ratings
+<h1>Univariate Visualizations</h1>
+<h3>Proportion of Average Ratings</h3>
 <iframe src="assets/uni_avg_rating_prop.html" width=800 height=600 frameBorder=0></iframe>
 
 <!-- <h3>Density Average Rating</h3>
 <iframe src="assets/uni_density_avg_rating.html" width=800 height=600 frameBorder=0></iframe> -->
 
-Percentage of Minutes With Outliers
+<h3>Percentage of Minutes With Outliers</h3>
 <iframe src="assets/uni_percent_minutes_with_out" width=800 height=600 frameBorder=0></iframe>
 
-Percentage of Minutes without Outliers
+<h3>Percentage of Minutes without Outliers</h3>
 <iframe src="assets/uni_percent_minutes_without_out" width=800 height=600 frameBorder=0></iframe>
 
-Percentage of Recipes Each Year
+<h3>Percentage of Recipes Each Year</h3>
 <iframe src="assets/uni_recipes_per_year.html" width=800 height=600 frameBorder=0></iframe>
 
 
@@ -380,14 +382,13 @@ Percentage of Recipes Each Year
 
 
 <h1>Assessment of Missingness</h1>
-Missing Completely at Random: Average Rating on Minutes
+<h4>Missing Completely at Random: Average Rating on Minutes</h4>
 <iframe src="assets/mcar_fig_condition_on_minutes.html" width=800 height=600 frameBorder=0></iframe>
 
-Missing at Random: Average Rating on Year
+<h4>Missing at Random: Average Rating on Year</h4>
 <iframe src="assets/mar_fig_condition_on_year.html" width=800 height=600 frameBorder=0></iframe>
 
 <h1>Hypothesis Testing</h1>
-Hypothesis Test
 <iframe src="assets/fig_hyp.html" width=800 height=600 frameBorder=0></iframe>
 
 
