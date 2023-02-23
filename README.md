@@ -432,9 +432,11 @@ Hypothesis Test
     h1{
       font-family: Helvetica, Sans-Serif;
       color:#011638;
+      background: #829399
     }
     h4{
       color: #011638;
+      background: #829399;
 
     }
 
