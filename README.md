@@ -1,12 +1,12 @@
-### Exploration of Recipe Ratings Over Time
+<h1>Exploration of Recipe Ratings Over Time</h1>
 
 <i> The datasets that were used throughout this project can be found here: <a href = "https://dsc80.com/project3/recipes-and-ratings/food.com">food.com</a></i>
 
-# Introduction
+<h1> Introduction </h1>
 ** Still need to include introduction **
 ## Question: What is the relationship between change in time and rating?
 
-##### Original Dataframe with Average Rating Column
+<h4>Original Dataframe with Average Rating Column</h4>
 
 This is a part of the dataframe that we used that has all the recipes and their respective average ratings. 
 
@@ -117,9 +117,9 @@ This is a part of the dataframe that we used that has all the recipes and their 
 **We used this data frame throughout the rest of our exploration and analysis**
 
 
-# Cleaning and EDA
+<h1>Cleaning and EDA</h1>
 ** Data cleaning steps in detail **
-### Univariate Visualizations
+# Univariate Visualizations
 Proportion of Average Ratings
 <iframe src="assets/uni_avg_rating_prop.html" width=800 height=600 frameBorder=0></iframe>
 
@@ -137,7 +137,7 @@ Percentage of Recipes Each Year
 
 
 
-### Bivariate Visualizations
+<h1>Bivariate Visualizations</h1>
 Histogram of Minutes Against Steps
 <iframe src="assets/bi_min_steps_hist.html" width=800 height=600 frameBorder=0></iframe>
 
@@ -148,9 +148,9 @@ Histogram of Number of Steps Against Recipe Length without Outliers
 <iframe src="assets/bi_step_min_without_out.html" width=800 height=600 frameBorder=0></iframe>
 
 
-# Intersting Aggregates
+<h1>Intersting Aggregates</h1>
 
-#### We added in a new column that groups ratings that are within a range, rounding down to the nearest rating. 
+<h4>We added in a new column that groups ratings that are within a range, rounding down to the nearest rating. </h4>
 
 <!-- WITH THE BINNED AVERAGES -->
 <table border="1" class="dataframe">
@@ -190,7 +190,7 @@ Histogram of Number of Steps Against Recipe Length without Outliers
   </tbody>
 </table>
 
-### Pivot Table - Aggregating the Mean of Calories per Rating Over Years With Outliers
+<h4>Pivot Table - Aggregating the Mean of Calories per Rating Over Years With Outliers</h4>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -252,7 +252,7 @@ Histogram of Number of Steps Against Recipe Length without Outliers
   </tbody>
 </table>
 
-### Pivot Table - Aggregating the Mean of Calories per Rating Over Years Without Outliers
+<h4>Pivot Table - Aggregating the Mean of Calories per Rating Over Years Without Outliers</h4>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -314,7 +314,7 @@ Histogram of Number of Steps Against Recipe Length without Outliers
   </tbody>
 </table>
 
-### Difference Between the Two Pivot Tables Above
+<h4>Difference Between the Two Pivot Tables Above</h4>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -378,16 +378,18 @@ Histogram of Number of Steps Against Recipe Length without Outliers
 
 
 
-# Assessment of Missingness
+<h1>Assessment of Missingness</h1>
 Missing Completely at Random: Average Rating on Minutes
 <iframe src="assets/mcar_fig_condition_on_minutes.html" width=800 height=600 frameBorder=0></iframe>
 
 Missing at Random: Average Rating on Year
 <iframe src="assets/mar_fig_condition_on_year.html" width=800 height=600 frameBorder=0></iframe>
 
-# Hypothesis Testing
+<h1>Hypothesis Testing</h1>
 Hypothesis Test
 <iframe src="assets/fig_hyp.html" width=800 height=600 frameBorder=0></iframe>
+
+
 
 <style> 
 	table{ 
@@ -427,6 +429,15 @@ Hypothesis Test
 	  body{
 	  	font-family: Helvetica, Sans-Serif;
 	  }
+    h1{
+      font-family: Helvetica, Sans-Serif;
+      color:#011638;
+    }
+    h4{
+      color: #011638;
+
+    }
+
 
 	/*  .page {
         @include container;
