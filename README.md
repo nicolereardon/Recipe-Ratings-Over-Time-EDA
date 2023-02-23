@@ -631,7 +631,7 @@
 
 <h4>Missing Completely at Random: Average Rating on Minutes</h4>
 <iframe src="assets/mcar_fig_condition_on_minutes.html" width=800 height=600 frameBorder=0></iframe>
-<p><b>We found that the average rating conditional on minutes is Not Missing at Random (MCAR).</b> We used a permutation test to come to the conclusion and found that the p-value is 0.382, which is greater than the critical value of 0.05. when the missingness of the average rating was conditional on minutes. 
+<p><strong>We found that the average rating conditional on minutes is Not Missing at Random (MCAR).</strong> We used a permutation test to come to the conclusion and found that the p-value is 0.382, which is greater than 0.05. when the missingness of the average rating was conditional on minutes. 
 </p>
 
 
@@ -639,26 +639,25 @@
 
 <h4>Missing at Random: Average Rating on Year</h4>
 <iframe src="assets/mar_fig_condition_on_year.html" width=800 height=600 frameBorder=0></iframe>
-<p><b>We found the average rating conditional on year is Missing at Random (MAR).</b> 
-We used a permutation test to come to the conclusion and found that there was a p value of 0.0 when the missingness of average rating was conditional on year. </p>
+<p><strong>We found the average rating conditional on year is Missing at Random (MAR).</strong> 
+We used a permutation test to come to the conclusion and found that there was a p-value of 0.00 when the missingness of average rating was conditional on year. </p>
 
 <h5><em>Both of these finds are shown through our permutation tests</em></h5>
 
 
 <h1>Hypothesis Testing</h1>
 <h5> Null Hypothesis: The distribution of rating bins for the year of 2018 is the same as the population distribution between the years of 2008 and 2018.</h5>
-<br>
 <h5>Alternative Hypothesis: The distribution of rating bins for 2018 is different than the distribution of bin ratings during </h5>
-
+<br>
 <h5>Choice of Test Statistics : Total Variation Distance (TVD)</h5>
 <p>We chose to use this test statistics because we are looking at two groups of categorical data, years and rating bins.</p>
-<h5>P-Value = 0.0</h5>
+<h5>P-Value = 0.00</h5>
 <h5>Conclusion</h5>
-<p>Reject the null hypothesis. This is because the p-value is less than the critical value of 0.05. There is significant evidence to support the alternative hypothesis that the distribution of rating in 2018 is different from the overall population between the years of 2008-2018.</p>
+<p><storng>Reject the null hypothesis.</storng> This is because the p-value of 0.00 is less than 0.05. There is significant evidence to support the alternative hypothesis that the distribution of rating in 2018 is different from the overall population between the years of 2008-2018.</p>
 
 <iframe src="assets/fig_hyp.html" width=800 height=600 frameBorder=0></iframe>
 
-<p>This hypothesis test allowed us to look at whether the most recent year in the dataset follows the distribution of the populations, which is between the years of 2008-2018. By doing so, we are able to see if there is a significant difference in the distribution of ratings for 2018 compared to the population. </p>
+<p>This hypothesis test allowed us to look at whether the most recent year in the dataset follows the distribution of the populations, which is between the years of 2008-2018. By doing so, we are able to see if there is a significant difference in the distribution of ratings for 2018 compared to the population.</p>
 
 
 <style> 
