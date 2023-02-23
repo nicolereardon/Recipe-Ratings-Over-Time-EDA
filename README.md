@@ -123,8 +123,8 @@ This is a part of the dataframe that we used that has all the recipes and their 
 Proportion of Average Ratings
 <iframe src="assets/uni_avg_rating_prop.html" width=800 height=600 frameBorder=0></iframe>
 
-Density Average Rating
-<iframe src="assets/uni_density_avg_rating.html" width=800 height=600 frameBorder=0></iframe>
+<!-- <h3>Density Average Rating</h3>
+<iframe src="assets/uni_density_avg_rating.html" width=800 height=600 frameBorder=0></iframe> -->
 
 Percentage of Minutes With Outliers
 <iframe src="assets/uni_percent_minutes_with_out" width=800 height=600 frameBorder=0></iframe>
@@ -138,13 +138,14 @@ Percentage of Recipes Each Year
 
 
 <h1>Bivariate Visualizations</h1>
-Histogram of Minutes Against Steps
+
+<h3>Histogram of Minutes Against Steps</h3>
 <iframe src="assets/bi_min_steps_hist.html" width=800 height=600 frameBorder=0></iframe>
 
-Histogram of Number of Steps Against Recipe Length with Outliers
+<h3>Histogram of Number of Steps Against Recipe Length with Outliers</h3>
 <iframe src="assets/bi_step_min_with_out.html" width=800 height=600 frameBorder=0></iframe>
 
-Histogram of Number of Steps Against Recipe Length without Outliers
+<h3>Histogram of Number of Steps Against Recipe Length without Outliers</h3>
 <iframe src="assets/bi_step_min_without_out.html" width=800 height=600 frameBorder=0></iframe>
 
 
@@ -431,12 +432,11 @@ Hypothesis Test
 	  }
     h1{
       font-family: Helvetica, Sans-Serif;
-      color:#7A918D;
-      background: #dceed1;
-    }
+      color:#4B7A5C;
+     }
     h4{
-      color: #011638;
-      background: #dceed1;
+      color:#699A7B;
+     
 
     }
 
