@@ -293,6 +293,60 @@ This dataset is useful for anyone who would like to further explore different fa
       <td>451.114354</td>
       <td>425.329478</td>
     </tr>
+    <tr>
+      <th>2013</th>
+      <td>402.282353</td>
+      <td>491.366667</td>
+      <td>394.346711</td>
+      <td>452.606506</td>
+      <td>608.140000</td>
+      <td>456.576134</td>
+    </tr>
+    <tr>
+      <th>2014</th>
+      <td>571.213636</td>
+      <td>532.757143</td>
+      <td>478.654348</td>
+      <td>469.851454</td>
+      <td>548.863636</td>
+      <td>478.593804</td>
+    </tr>
+    <tr>
+      <th>2015</th>
+      <td>305.150000</td>
+      <td>1189.900000</td>
+      <td>414.100000</td>
+      <td>452.846000</td>
+      <td>424.685714</td>
+      <td>452.435621</td>
+    </tr>
+    <tr>
+      <th>2016</th>
+      <td>514.111111</td>
+      <td>201.400000</td>
+      <td>288.257143</td>
+      <td>578.818301</td>
+      <td>448.600000</td>
+      <td>538.804902</td>
+    </tr>
+    <tr>
+      <th>2017</th>
+      <td>481.220000</td>
+      <td>225.800000</td>
+      <td>472.330769</td>
+      <td>879.210053</td>
+      <td>501.486111</td>
+      <td>743.518750</td>
+    </tr>
+    <tr>
+      <th>2018</th>
+      <td>1905.725000</td>
+      <td>1057.900000</td>
+      <td>2148.163636</td>
+      <td>713.726357</td>
+      <td>1380.256818</td>
+      <td>979.431746</td>
+    </tr>
   </tbody>
 </table>
 <p>We used this pivot table to see how the average amount of calories per rating bin for each year changed. Just looking at this table, we noticed that 2018 had a significantly greater amount of calories across all ratings compared to other years. Also, it seems like the average amount of calories per year seems to be consistent across the rating bins. </p>
@@ -366,6 +420,60 @@ This dataset is useful for anyone who would like to further explore different fa
       <td>384.670204</td>
       <td>413.371498</td>
       <td>386.349347</td>
+    </tr>
+    <tr>
+      <th>2013</th>
+      <td>402.282353</td>
+      <td>391.578947</td>
+      <td>394.346711</td>
+      <td>396.973695</td>
+      <td>372.864189</td>
+      <td>395.907452</td>
+    </tr>
+    <tr>
+      <th>2014</th>
+      <td>338.833333</td>
+      <td>269.794737</td>
+      <td>478.654348</td>
+      <td>402.630839</td>
+      <td>514.070769</td>
+      <td>409.288190</td>
+    </tr>
+    <tr>
+      <th>2015</th>
+      <td>305.150000</td>
+      <td>223.350000</td>
+      <td>414.100000</td>
+      <td>415.527935</td>
+      <td>424.685714</td>
+      <td>413.066887</td>
+    </tr>
+    <tr>
+      <th>2016</th>
+      <td>514.111111</td>
+      <td>201.400000</td>
+      <td>288.257143</td>
+      <td>438.507432</td>
+      <td>448.600000</td>
+      <td>433.447739</td>
+    </tr>
+    <tr>
+      <th>2017</th>
+      <td>233.200000</td>
+      <td>225.800000</td>
+      <td>472.330769</td>
+      <td>456.470556</td>
+      <td>501.486111</td>
+      <td>458.323741</td>
+    </tr>
+    <tr>
+      <th>2018</th>
+      <td>1330.666667</td>
+      <td>1057.900000</td>
+      <td>607.820000</td>
+      <td>517.115079</td>
+      <td>714.041026</td>
+      <td>581.744134</td>
     </tr>
   </tbody>
 </table>
