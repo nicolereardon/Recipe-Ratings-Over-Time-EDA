@@ -153,6 +153,10 @@ This is a part of the dataframe that we used that has all the recipes and their 
 <h3>Histogram of Number of Steps Against Recipe Length without Outliers</h3>
 <iframe src="assets/bi_step_min_without_out.html" width=800 height=600 frameBorder=0></iframe>
 <br>
+
+<h3>Barchart of the Number of Binned Ratings Per Year</h3>
+<iframe src="assets/bi_fig_avg_year.html" width=800 height=600 frameBorder=0></iframe>
+<br>
 <br>
 
 <h1>Intersting Aggregates</h1>
