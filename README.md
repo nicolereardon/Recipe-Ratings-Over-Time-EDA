@@ -167,7 +167,9 @@ Hypothesis Test
         overflow: scroll;
 		/*width: 100; 
 		height:350px;*/ 
-
+	 }
+	 th{
+	 	widhth:150%;
 	 }
      /* tr{
          page-break-inside: avoid;
