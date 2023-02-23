@@ -158,7 +158,7 @@ Hypothesis Test
 	table{ 
 		table-layout: fixed; 
 		border-collapse: collapse;
-		width: 100%;
+		width: 200%;
         margin-left: auto;
         margin-right: auto;
         word-wrap: break-word;
@@ -180,6 +180,7 @@ Hypothesis Test
 	 	overflow: hidden;*/
 /*    	white-space:nowrap;*/
 	  }
+
 
 </style>
 
