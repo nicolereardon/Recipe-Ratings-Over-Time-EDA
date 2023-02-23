@@ -158,7 +158,7 @@ Hypothesis Test
 	table{ 
 		table-layout: fixed; 
 		border-collapse: collapse;
-		width: 80%;
+		width: 100%;
         margin-left: auto;
         margin-right: auto;
         word-wrap: break-word;
