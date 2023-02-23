@@ -159,9 +159,9 @@ Hypothesis Test
 		table-layout: fixed; 
 		border-collapse: collapse;
 		width: 150%;
-        margin-left: auto;
+        /*margin-left: auto;
         margin-right: auto;
-        word-wrap: break-word;
+*/      word-wrap: break-word;
         margin-right:auto;
         margin-left:0px;
         overflow: scroll;
