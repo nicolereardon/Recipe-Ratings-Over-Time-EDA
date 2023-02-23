@@ -5,9 +5,9 @@
 <h5><em> The datasets that were used throughout this project can be found here: <a href = "https://dsc80.com/project3/recipes-and-ratings/food.com">food.com</a></em></h5>
 
 <h1> Introduction </h1>
-<p>Throughout the rest of the page, you will get a chance to explore different relationships between recipes and their ratings. The datasets that we used throughout this exploratory data analysis includes information about recipes between the years of 2008 and 2018 from the website Recipes.com. The first data frame, Raw Recipes,  contains relevant information about how to make the recipe (such as name, steps, ingredients, number of minutes it will take, etc.) as well as the id of the contributor and the date they submitted the recipe. The second data frame, Raw Interactions, contains information about ratings of the recipes (i.e. date submitted, number rating, and review) as well as the id of the user who wrote it and the id of the recipe it was for.<br>
+<p>Throughout the rest of the page, you will get a chance to explore different relationships between recipes and their ratings. The datasets that we used throughout this exploratory data analysis includes information about recipes between the years of 2008 and 2018 from the website Recipes.com. The first data frame, Raw Recipes,  contains relevant information about how to make the recipe (such as name, steps, ingredients, number of minutes it will take, etc.) as well as the id of the contributor and the date they submitted the recipe. The second data frame, Raw Interactions, contains information about ratings of the recipes (i.e. date submitted, number rating, and review) as well as the id of the user who wrote it and the id of the recipe it was for.</p>
 
-This dataset is useful for anyone who would like to further explore different factors of recipes and what possible trends may exist. Through our EDA, we were interested in looking at the relationship between recipes’ ratings and time. Such focus on this relationship would allow us to look at possible trends that may exist not only over all recipes but finding trends between the years as well. Given this, the question created to direct our analysis is:</p>
+<p>This dataset is useful for anyone who would like to further explore different factors of recipes and what possible trends may exist. Through our EDA, we were interested in looking at the relationship between recipes’ ratings and time. Such focus on this relationship would allow us to look at possible trends that may exist not only over all recipes but finding trends between the years as well. Given this, the question created to direct our analysis is:</p>
 
 <h1>Question: What is the relationship between change in time and rating?<h1>
 
@@ -16,7 +16,7 @@ This dataset is useful for anyone who would like to further explore different fa
 <h3>Description of Columns: </h3>
 <ul>
 <li>average_ rating: average number of minutes for each recipe</li>
-<li>Minutes: the number of minutes it takes to make the recipe</li>
+<li>minutes: the number of minutes it takes to make the recipe</li>
 <li>n_steps: the number of steps in the recipe</li>
 </ul>
 
@@ -130,10 +130,89 @@ This dataset is useful for anyone who would like to further explore different fa
 
 <h1>Cleaning and EDA</h1>
 
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>name</th>
+      <th>id</th>
+      <th>submitted</th>
+      <th>calories (#)</th>
+      <th>total fat (PDV)</th>
+      <th>sugar (PDV)</th>
+      <th>sodium (PDV)</th>
+      <th>protein (PDV)</th>
+      <th>saturated fat (PDV)</th>
+      <th>carbohydrates (PDV)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1 brownies in the world    best ever</td>
+      <td>333281</td>
+      <td>2008-10-27</td>
+      <td>138.4</td>
+      <td>10.0</td>
+      <td>50.0</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>19.0</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <td>1 in canada chocolate chip cookies</td>
+      <td>453467</td>
+      <td>2011-04-11</td>
+      <td>595.1</td>
+      <td>46.0</td>
+      <td>211.0</td>
+      <td>22.0</td>
+      <td>13.0</td>
+      <td>51.0</td>
+      <td>26.0</td>
+    </tr>
+    <tr>
+      <td>412 broccoli casserole</td>
+      <td>306168</td>
+      <td>2008-05-30</td>
+      <td>194.8</td>
+      <td>20.0</td>
+      <td>6.0</td>
+      <td>32.0</td>
+      <td>22.0</td>
+      <td>36.0</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td>millionaire pound cake</td>
+      <td>286009</td>
+      <td>2008-02-12</td>
+      <td>878.3</td>
+      <td>63.0</td>
+      <td>326.0</td>
+      <td>13.0</td>
+      <td>20.0</td>
+      <td>123.0</td>
+      <td>39.0</td>
+    </tr>
+    <tr>
+      <td>2000 meatloaf</td>
+      <td>475785</td>
+      <td>2012-03-06</td>
+      <td>267.0</td>
+      <td>30.0</td>
+      <td>12.0</td>
+      <td>12.0</td>
+      <td>29.0</td>
+      <td>48.0</td>
+      <td>2.0</td>
+    </tr>
+  </tbody>
+</table>
+
 <p>As we would be referencing the submitted dates of the recipes, we then converted the string-stored dates to the DateTime type. This would allow for easier date manipulations in our analysis.</p>
 
 <p>Another type-conversion we performed was on the nutrition, steps, and ingredient columns. They all appeared to be lists but were stored as strings, containing the macronutrient information, step-by-step explanation, and all needed ingredients, respectively, of each recipe. By converting the strings into actual lists, we were able to confirm that the listed number of steps and ingredients were correct. For the nutrition list, we also expanded the macros into separate columns that would allow us to easily access them individually.</p>
-
 
 
 <h1>Univariate Visualizations</h1>
