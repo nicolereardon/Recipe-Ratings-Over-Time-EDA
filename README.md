@@ -235,10 +235,19 @@ This dataset is useful for anyone who would like to further explore different fa
       <th>missing</th>
       <th>average</th>
     </tr>
+    <tr>
+      <th>year</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
   </thead>
   <tbody>
     <tr>
-      <th></th>
+      <th>2008</th>
       <td>422.428191</td>
       <td>421.185000</td>
       <td>411.355490</td>
@@ -247,7 +256,7 @@ This dataset is useful for anyone who would like to further explore different fa
       <td>418.853056</td>
     </tr>
     <tr>
-      <th></th>
+      <th>2009</th>
       <td>470.127007</td>
       <td>493.232719</td>
       <td>450.831211</td>
@@ -256,7 +265,7 @@ This dataset is useful for anyone who would like to further explore different fa
       <td>427.918326</td>
     </tr>
     <tr>
-      <th></th>
+      <th>2010</th>
       <td>381.831132</td>
       <td>382.088776</td>
       <td>478.289388</td>
@@ -265,7 +274,7 @@ This dataset is useful for anyone who would like to further explore different fa
       <td>416.971072</td>
     </tr>
     <tr>
-      <th></th>
+      <th>2011</th>
       <td>353.375510</td>
       <td>403.381667</td>
       <td>465.259790</td>
@@ -274,7 +283,7 @@ This dataset is useful for anyone who would like to further explore different fa
       <td>454.808992</td>
     </tr>
     <tr>
-      <th></th>
+      <th>2012</th>
       <td>564.124444</td>
       <td>427.792453</td>
       <td>482.936792</td>
@@ -300,10 +309,19 @@ This dataset is useful for anyone who would like to further explore different fa
       <th>missing</th>
       <th>average</th>
     </tr>
+    <tr>
+      <th>year</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
   </thead>
   <tbody>
     <tr>
-      <th></th>
+      <th>2008</th>
       <td>352.739674</td>
       <td>366.274576</td>
       <td>382.124211</td>
@@ -312,7 +330,7 @@ This dataset is useful for anyone who would like to further explore different fa
       <td>381.695892</td>
     </tr>
     <tr>
-      <th></th>
+      <th>2009</th>
       <td>421.317037</td>
       <td>402.992991</td>
       <td>395.740781</td>
@@ -321,7 +339,7 @@ This dataset is useful for anyone who would like to further explore different fa
       <td>386.536335</td>
     </tr>
     <tr>
-      <th></th>
+      <th>2010</th>
       <td>381.831132</td>
       <td>382.088776</td>
       <td>396.468132</td>
@@ -330,7 +348,7 @@ This dataset is useful for anyone who would like to further explore different fa
       <td>379.893378</td>
     </tr>
     <tr>
-      <th></th>
+      <th>2011</th>
       <td>353.375510</td>
       <td>403.381667</td>
       <td>408.561922</td>
@@ -339,7 +357,7 @@ This dataset is useful for anyone who would like to further explore different fa
       <td>399.634114</td>
     </tr>
     <tr>
-      <th></th>
+      <th>2012</th>
       <td>365.144186</td>
       <td>427.792453</td>
       <td>390.561058</td>
@@ -364,10 +382,19 @@ This dataset is useful for anyone who would like to further explore different fa
       <th>missing</th>
       <th>average</th>
     </tr>
+    <tr>
+      <th>year</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
   </thead>
   <tbody>
     <tr>
-      <th></th>
+      <th>2008</th>
       <td>69.688518</td>
       <td>54.910424</td>
       <td>29.231280</td>
@@ -376,7 +403,7 @@ This dataset is useful for anyone who would like to further explore different fa
       <td>37.157163</td>
     </tr>
     <tr>
-      <th></th>
+      <th>2009</th>
       <td>48.809970</td>
       <td>90.239728</td>
       <td>55.090430</td>
@@ -385,7 +412,7 @@ This dataset is useful for anyone who would like to further explore different fa
       <td>41.381991</td>
     </tr>
     <tr>
-      <th></th>
+      <th>2010</th>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>81.821257</td>
@@ -394,7 +421,7 @@ This dataset is useful for anyone who would like to further explore different fa
       <td>37.077694</td>
     </tr>
     <tr>
-      <th></th>
+      <th>2011</th>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>56.697869</td>
@@ -403,7 +430,7 @@ This dataset is useful for anyone who would like to further explore different fa
       <td>55.174878</td>
     </tr>
     <tr>
-      <th></th>
+      <th>2012</th>
       <td>198.980258</td>
       <td>0.000000</td>
       <td>92.375735</td>
