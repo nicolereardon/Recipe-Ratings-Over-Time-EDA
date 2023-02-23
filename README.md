@@ -190,6 +190,193 @@ Histogram of Number of Steps Against Recipe Length without Outliers
   </tbody>
 </table>
 
+### Pivot Table - Aggregating the Mean of Calories per Rating Over Years With Outliers
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>rating</th>
+      <th>[1,2) rating</th>
+      <th>[2,3) rating</th>
+      <th>[3,4) rating</th>
+      <th>[4,5] rating</th>
+      <th>missing</th>
+      <th>average</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th></th>
+      <td>422.428191</td>
+      <td>421.185000</td>
+      <td>411.355490</td>
+      <td>416.320136</td>
+      <td>526.509973</td>
+      <td>418.853056</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>470.127007</td>
+      <td>493.232719</td>
+      <td>450.831211</td>
+      <td>424.058527</td>
+      <td>481.331949</td>
+      <td>427.918326</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>381.831132</td>
+      <td>382.088776</td>
+      <td>478.289388</td>
+      <td>413.078273</td>
+      <td>455.627202</td>
+      <td>416.971072</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>353.375510</td>
+      <td>403.381667</td>
+      <td>465.259790</td>
+      <td>453.480130</td>
+      <td>516.164807</td>
+      <td>454.808992</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>564.124444</td>
+      <td>427.792453</td>
+      <td>482.936792</td>
+      <td>420.192781</td>
+      <td>451.114354</td>
+      <td>425.329478</td>
+    </tr>
+  </tbody>
+</table>
+
+### Pivot Table - Aggregating the Mean of Calories per Rating Over Years Without Outliers
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>rating</th>
+      <th>[1,2) rating</th>
+      <th>[2,3) rating</th>
+      <th>[3,4) rating</th>
+      <th>[4,5] rating</th>
+      <th>missing</th>
+      <th>average</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th></th>
+      <td>352.739674</td>
+      <td>366.274576</td>
+      <td>382.124211</td>
+      <td>380.881696</td>
+      <td>425.104502</td>
+      <td>381.695892</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>421.317037</td>
+      <td>402.992991</td>
+      <td>395.740781</td>
+      <td>384.419377</td>
+      <td>426.262945</td>
+      <td>386.536335</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>381.831132</td>
+      <td>382.088776</td>
+      <td>396.468132</td>
+      <td>377.759070</td>
+      <td>414.672513</td>
+      <td>379.893378</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>353.375510</td>
+      <td>403.381667</td>
+      <td>408.561922</td>
+      <td>397.985848</td>
+      <td>447.135526</td>
+      <td>399.634114</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>365.144186</td>
+      <td>427.792453</td>
+      <td>390.561058</td>
+      <td>384.670204</td>
+      <td>413.371498</td>
+      <td>386.349347</td>
+    </tr>
+  </tbody>
+</table>
+
+### Difference Between the Two Pivot Tables Above
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>rating</th>
+      <th>[1,2) rating</th>
+      <th>[2,3) rating</th>
+      <th>[3,4) rating</th>
+      <th>[4,5] rating</th>
+      <th>missing</th>
+      <th>average</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th></th>
+      <td>69.688518</td>
+      <td>54.910424</td>
+      <td>29.231280</td>
+      <td>35.438440</td>
+      <td>101.405471</td>
+      <td>37.157163</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>48.809970</td>
+      <td>90.239728</td>
+      <td>55.090430</td>
+      <td>39.639150</td>
+      <td>55.069004</td>
+      <td>41.381991</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>81.821257</td>
+      <td>35.319203</td>
+      <td>40.954689</td>
+      <td>37.077694</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>56.697869</td>
+      <td>55.494282</td>
+      <td>69.029281</td>
+      <td>55.174878</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>198.980258</td>
+      <td>0.000000</td>
+      <td>92.375735</td>
+      <td>35.522577</td>
+      <td>37.742856</td>
+      <td>38.980131</td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 # Assessment of Missingness
 Missing Completely at Random: Average Rating on Minutes
@@ -222,7 +409,6 @@ Hypothesis Test
 	 	width:150%;
 	 	overflow: scroll;
   		white-space: nowrap;
-  		text-overflow: ellipsis;
 	 }
      /* tr{
          page-break-inside: avoid;
@@ -237,6 +423,9 @@ Hypothesis Test
 	 	/*width:60%;
 	 	overflow: hidden;*/
 /*    	white-space:nowrap;*/
+	  }
+	  body{
+	  	font-family: Helvetica, Sans-Serif;
 	  }
 
 	/*  .page {
