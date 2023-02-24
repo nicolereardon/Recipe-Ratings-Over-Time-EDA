@@ -826,9 +826,8 @@
 
 
 <h4>Missing Completely at Random: Average Rating on Minutes</h4>
-<iframe src="assets/mcar_fig_condition_on_minutes.html" width=800 height=600 frameBorder=0></iframe>
-<p><strong>We found that the average rating conditional on minutes is Not Missing at Random (MCAR).</strong> We used a permutation test to come to the conclusion and found that the p-value is 0.382, which is greater than 0.05. when the missingness of the average rating was conditional on minutes. 
-</p>
+<iframe src="assets/mcar_fig_condition_on_ingredients.html" width=800 height=600 frameBorder=0></iframe>
+<p><strong>We found that the average rating conditional on ingredients is Not Missing at Random (MCAR).</strong> After categorizing the number of ingredients into low (1-10), medium (11-20), and high (20+), we performed a permutation test on amount of ingredients and average rating. We found that the p-value is 0.084 and came to the conclusion that the missingness of average ratings were not dependent on ingredients because it is greater than 0.05.</p>
 
 
 
@@ -914,5 +913,3 @@ We used a permutation test to come to the conclusion and found that there was a 
 
 
 </style>
-
-
