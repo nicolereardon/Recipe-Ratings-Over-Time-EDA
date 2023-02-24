@@ -821,7 +821,7 @@
 <h1>Assessment of Missingness</h1>
 <br>
 <h4>Description Columns is NMAR</h4>
-<p>The column we believe to be not missing at random is the description column. Given that the description of the recipe is not entirely necessary to make the dish, it is possible that the contributor thought the name of the recipe was sufficient or couldn’t be bothered to write one. An additional column that could explain the missingness would possibly be a difficulty column. Recipes that are easier or more simple would have a lower difficulty rating and we would expect to see the recipes with lower difficulty ratings would have more missing descriptions.</p>
+<p>he column we believe to be not missing at random is the <strong>description</strong> column. Given that the description of the recipe is not entirely necessary to make the dish, it is possible that the contributor thought the name of the recipe was sufficient or couldn’t be bothered to write one. An additional column that could explain the missingness would possibly be a difficulty column. Recipes that are easier or more simple would have a lower difficulty rating and we would expect to see the recipes with lower difficulty ratings would have more missing descriptions.</p>
 <br><br>
 
 
