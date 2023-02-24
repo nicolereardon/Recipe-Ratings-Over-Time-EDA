@@ -20,7 +20,11 @@
 <li>n_steps: the number of steps in the recipe</li>
 </ul>
 
-<p>The data frame we used during our analysis consisted of all of the columns of Raw Recipes along with the average rating of those recipes, obtained by calculating it in the Raw Recipes data frame. We will reference this data frame as Combined throughout the rest of this investigation.</p>
+<h4><em>Raw Recipes</em></h4>
+
+<h4><em>Raw Interactions</em></h4>
+
+<p>The data frame we used during our analysis consisted of all of the columns of Raw Recipes along with the average rating of those recipes, obtained by calculating it in the Raw Recipes data frame. We will reference this data frame as Combined throughout the rest of this investigation. Before finding the average rating for each recipe, we filled any values with a rating of 0 with NaN. This is because a rating of 0 indicated that no rating of 0. If we were to keep those 0 values, the average rating of each recipe would lowered, thus incorrectly representing the average rating of the recipes.</p>
 
 <h4><em>Original Dataframe with Average Rating Column</em></h4>
 
@@ -260,36 +264,34 @@
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th>id</th>
       <th>average_rating</th>
       <th>rating</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>333281</td>
-      <td>4.0</td>
+      <td>1.000000</td>
+      <td>[1,2) rating</td>
+    </tr>
+    <tr>
+      <td>2.250000</td>
+      <td>[2,3) rating</td>
+    </tr>
+    <tr>
+      <td>3.090909</td>
+      <td>[3,4) rating</td>
+    </tr>
+    <tr>
+      <td>4.000000</td>
       <td>[4,5] rating</td>
     </tr>
     <tr>
-      <td>453467</td>
-      <td>5.0</td>
+      <td>5.000000</td>
       <td>[4,5] rating</td>
     </tr>
     <tr>
-      <td>306168</td>
-      <td>5.0</td>
-      <td>[4,5] rating</td>
-    </tr>
-    <tr>
-      <td>286009</td>
-      <td>5.0</td>
-      <td>[4,5] rating</td>
-    </tr>
-    <tr>
-      <td>475785</td>
-      <td>5.0</td>
-      <td>[4,5] rating</td>
+      <td>NaN</td>
+      <td>missing</td>
     </tr>
   </tbody>
 </table>
