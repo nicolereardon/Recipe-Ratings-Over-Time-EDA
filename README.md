@@ -759,6 +759,60 @@
       <td>37.742856</td>
       <td>38.980131</td>
     </tr>
+    <tr>
+      <th>2013</th>
+      <td>0.000000</td>
+      <td>99.787719</td>
+      <td>0.000000</td>
+      <td>55.632811</td>
+      <td>235.275811</td>
+      <td>60.668682</td>
+    </tr>
+    <tr>
+      <th>2014</th>
+      <td>232.380303</td>
+      <td>262.962406</td>
+      <td>0.000000</td>
+      <td>67.220615</td>
+      <td>34.792867</td>
+      <td>69.305614</td>
+    </tr>
+    <tr>
+      <th>2015</th>
+      <td>0.000000</td>
+      <td>966.550000</td>
+      <td>0.000000</td>
+      <td>37.318065</td>
+      <td>0.000000</td>
+      <td>39.368733</td>
+    </tr>
+    <tr>
+      <th>2016</th>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>140.310868</td>
+      <td>0.000000</td>
+      <td>105.357163</td>
+    </tr>
+    <tr>
+      <th>2017</th>
+      <td>248.020000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>422.739497</td>
+      <td>0.000000</td>
+      <td>285.195009</td>
+    </tr>
+    <tr>
+      <th>2018</th>
+      <td>575.058333</td>
+      <td>0.000000</td>
+      <td>1540.343636</td>
+      <td>196.611277</td>
+      <td>666.215793</td>
+      <td>397.687612</td>
+    </tr>
   </tbody>
 </table>
 <p>We took the difference between the two pivot tables mentioned above to see how much each value changed once the outliers were removed. This would allow us to see how much each value changed when outliers were removed. </p>
